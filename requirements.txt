@@ -1,0 +1,11 @@
+# School Paging System - runtime and development dependencies
+PySide6>=6.10
+numpy>=2.0
+sounddevice>=0.5
+soundfile>=0.12
+reportlab>=4.0
+pywin32>=306; sys_platform == "win32"
+
+# Development / packaging
+pytest>=8.0
+pyinstaller>=6.10
